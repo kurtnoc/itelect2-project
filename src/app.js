@@ -36,11 +36,13 @@ async function main() {
     console.error("Error creating task:", err.message);
   }
  
-  // Trigger the error path on purpose so TaskValidationError is exercised
+
   try {
     createTask({ title: "Missing due date" });
   } catch (err) {
     console.error(`Error creating task (${err.name}):`, err.message);
   }
 }
+
+main();
  
