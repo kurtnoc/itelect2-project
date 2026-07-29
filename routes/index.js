@@ -1,6 +1,6 @@
 import express from 'express';
-import { mockTasks } from '../utils.js';
-import { fetchSampleUsers } from '../api.js';
+import { mockTasks } from '../src/utils.js';
+import { fetchSampleUsers } from '../src/api.js';
 
 const router = express.Router();
 
