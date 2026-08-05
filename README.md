@@ -3,4 +3,14 @@ My IT Elective 2 backend web development project in IT3C Section.
 
 ### API TESTING
 
+#### GET
 ![alt text](image.png)
+
+#### POST
+![alt text](image-1.png)
+
+#### PUT
+![alt text](image-2.png)
+
+#### DELETE
+![alt text](image-3.png)
