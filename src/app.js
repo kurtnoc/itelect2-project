@@ -1,4 +1,3 @@
- // app.js - Main application entry point
  console.log('Server Starting...');
 
  import { formatDate, validateTask, mergeTaskUpdate } from './utils.js';

@@ -1,4 +1,4 @@
-// GT5 - mock task data (replace with your actual GT3 array if it differs)
+// GT5 - mock task data
 export const mockTasks = [
   { id: 1, title: "Finish GT4 assignment", dueDate: "2026-07-22", completed: false },
   { id: 2, title: "Review Express routing", dueDate: "2026-07-29", completed: false },
@@ -26,7 +26,7 @@ export class TaskValidationError extends Error {
   }
 }
 
-// GT4 Part 2 - createTask, built on top of validateTask from GT3
+// GT4 Part 2
 export const createTask = (taskData) => {
   if (!validateTask(taskData)) {
     throw new TaskValidationError("Invalid task data");
