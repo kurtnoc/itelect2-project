@@ -14,3 +14,6 @@ My IT Elective 2 backend web development project in IT3C Section.
 
 #### DELETE
 ![alt text](image-7.png)
+
+## Live URL
+https://itelect2-project-s3sx.onrender.com
